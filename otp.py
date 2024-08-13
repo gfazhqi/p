@@ -4,7 +4,7 @@ from opentele.api import API, UseCurrentSession
 import asyncio
 
 async def main():
-    client = TelegramClient("@ldrose3.session.session")
+    client = TelegramClient("@ldrose3.session")
     
     tdesk = await client.ToTDesktop(flag=UseCurrentSession)
     
